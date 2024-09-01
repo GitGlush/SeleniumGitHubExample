@@ -17,7 +17,7 @@ public class OpenFirefoxBrowser {
 		
 		//Open the Firefox Browser
 		WebDriver driver = new FirefoxDriver();
-		
+		WebDriver driver = new FirefoxDriver();
 		
 		//we want to go to the neotechacademy URL
 		driver.get("https://www.neotechacademy.com/");

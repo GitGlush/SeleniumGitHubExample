@@ -7,7 +7,7 @@ public class LaunchChromeBrowser {
 
 	public static void main(String[] args) throws InterruptedException {
 
-
+setUp();
 		//Open the browser
 		WebDriver driver = new ChromeDriver();  //CTRL + SHIFT + O  -- imports the necessary objects
 		
@@ -21,7 +21,7 @@ public class LaunchChromeBrowser {
 			Thread.sleep(10000); //this is stopping the execution for 10 seconds so that I can see the page 
 		
 		//Close the browser
-		driver.quit();
+		//driver.quit();
 		
 		
 		//Break until: 9:07
